@@ -1,0 +1,9 @@
+*.obj
+*.log
+*.tlog
+*.user
+*.TMP
+*.pdb
+*.sdf
+*.opensdf
+*.opensdf
