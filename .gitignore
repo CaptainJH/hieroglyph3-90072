@@ -7,3 +7,11 @@
 *.sdf
 *.opensdf
 *.opensdf
+*.idb
+*.exe
+*.ilk
+trunk/Hieroglyph3/.vs/Hieroglyph3_Desktop/v14/.suo
+trunk/Hieroglyph3/Dependencies/lua-5.1.4/LuaLib/Bin/Win32/Debug/LuaLib.lib
+trunk/Hieroglyph3/Library/Win32/Debug/Hieroglyph3_Desktop.lib
+trunk/Hieroglyph3/Source/Bin/Win32/Debug/Hieroglyph3_Desktop.pch
+trunk/Hieroglyph3/.vs/Hieroglyph3_Desktop/v14/.suo
