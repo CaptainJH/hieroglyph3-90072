@@ -597,10 +597,10 @@
     <PostBuildEvent>
       <Command>if "$(Platform)" == "Win32" (
     echo "Hieroglyph3: Copying x86 version of D3DCompile*.dll to output bin folder."
-    copy “$(WindowsSdkDir)redist\d3d\x86\D3DCompile*.DLL” “$(SolutionDir)\Applications\Bin”
+    copy "$(WindowsSdkDir)redist\d3d\x86\D3DCompile*.DLL" "$(SolutionDir)\Applications\Bin"
 ) else (
     echo "Hieroglyph3: Copying x64 version of D3DCompile*.dll to output bin folder."
-    copy “$(WindowsSdkDir)redist\d3d\x64\D3DCompile*.DLL” “$(SolutionDir)\Applications\Bin”
+    copy "$(WindowsSdkDir)redist\d3d\x64\D3DCompile*.DLL" "$(SolutionDir)\Applications\Bin"
 )</Command>
     </PostBuildEvent>
     <Lib>
