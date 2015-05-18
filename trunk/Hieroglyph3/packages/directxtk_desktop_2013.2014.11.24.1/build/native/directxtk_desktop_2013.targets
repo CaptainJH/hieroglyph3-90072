@@ -39,14 +39,6 @@
       <AdditionalDependencies>$(MSBuildThisFileDirectory)../../build/native/lib/x64/Release/DirectXTKAudioDX.lib;$(MSBuildThisFileDirectory)../../build/native/lib/x64/Release/DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <Target Name="directxtk_desktop_2013_AfterBuild" AfterTargets="AfterBuild">
-    <Copy DestinationFolder="$(TargetDir)" SkipUnchangedFiles="true" UseHardlinksIfPossible="true" SourceFiles="@(CopyToOutput)">
-      <Output TaskParameter="DestinationFiles" PropertyName="DestinationFiles" />
-      <Output TaskParameter="DestinationFiles" ItemName="DestinationFiles" />
-      <Output TaskParameter="CopiedFiles" PropertyName="CopiedFiles" />
-      <Output TaskParameter="CopiedFiles" ItemName="CopiedFiles" />
-    </Copy>
-  </Target>
   <Target Name="directxtk_desktop_2013_BeforeLink" AfterTargets="BeforeLink">
     <CheckRuntimeLibrary RuntimeLibrary="%(ClCompile.RuntimeLibrary)" ExpectedRuntimeLibrary="none" LibraryName="directxtk_desktop_2013" />
   </Target>
