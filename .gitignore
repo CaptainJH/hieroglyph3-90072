@@ -22,3 +22,9 @@ trunk/Hieroglyph3/Dependencies/lua-5.1.4/LuaLib/Bin/x64/Debug/LuaLib.lib
 *.ipch
 trunk/Hieroglyph3/.vs/Hieroglyph3_Desktop/v14/.suo
 *.suo
+trunk/Hieroglyph3/Source/Bin/Win32/Release/Hieroglyph3_Desktop.pch
+trunk/Hieroglyph3/Source/Bin/x64/Release/Hieroglyph3_Desktop.pch
+trunk/Hieroglyph3/Library/Win32/Release/Hieroglyph3_Desktop.lib
+trunk/Hieroglyph3/Library/x64/Release/Hieroglyph3_Desktop.lib
+trunk/Hieroglyph3/Dependencies/lua-5.1.4/LuaLib/Bin/Win32/Release/LuaLib.lib
+trunk/Hieroglyph3/Dependencies/lua-5.1.4/LuaLib/Bin/x64/Release/LuaLib.lib
